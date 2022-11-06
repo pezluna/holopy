@@ -13,3 +13,10 @@ for date in schedule:
         print(info.getInfo())
     print()
 ```
+
+## Usage
+### old_connect() and old_beautify()
+Get information except any thumbnail and url, but faster than normal connect function
+
+### connect()
+Get whole information including thumbnails and urls, but slower than old style.
